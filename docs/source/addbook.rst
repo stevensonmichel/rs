@@ -5,7 +5,7 @@ Now that you have done all the work to get your servers configured, you are also
 
 Prerequisites
 ~~~~~~~~~~~~~
-
+Before starting the building process, you should ensure that Docker is currently running. That means that if servers are running in the terminal, it is not advised to begin a new line because that action would stopped the servers from running. Instead, add a new terminal session to run the new commands needed for building books. 
 To build a book using the `runestone` or `pretext` commands that are part of the rs monorepo you need to make sure you have the following installed:
 
 1. ``npm``  (node package manager) On a Mac you can use homebrew to install this.  ``brew install npm`` on linux there are many articles such as `this one <https://linuxize.com/post/how-to-install-node-js-on-ubuntu-20-04/>`_ that walk you through it.
